@@ -1,0 +1,9 @@
+header{
+    position: relative;
+    overflow: hidden;
+}
+
+header img{
+    position: absolute;
+    margin-top: -200px;
+}
