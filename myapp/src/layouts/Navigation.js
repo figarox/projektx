@@ -3,10 +3,8 @@ import { NavLink } from 'react-router-dom';
 import '../styles/nav.css';
 
 const List = [
-    {name: "Start", path: "/" , excat: true},
-    {name: "Produkty", path: "/products"},
-    {name: "Kontakt", path: "/contact"},
-    {name: "Admin", path: "/admin"},
+    {name: "Main", path: "/" , excat: true},
+    {name: "Projekty", path: "/products"},
 ]
 
 const Navigation = () => {
@@ -17,7 +15,7 @@ const Navigation = () => {
         </li>
     ))
     return ( 
-        <nav className='main'>
+        <nav className='nav-main'>
             <ul>
                 {menu}
             </ul>

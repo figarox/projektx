@@ -1,0 +1,65 @@
+
+.box13v2 {
+    position: absolute;
+    border-radius: 7px;
+    width: 1400px;
+    height: 640px;
+    background:rgba(6, 113, 235, 0.513);
+    right: -550px;
+    top: 20px;
+    transform: rotateZ(240deg);
+  }
+
+  div.polaroid img{
+    width: 750px;
+    height: 400px;
+  }
+
+h2{
+  font-size: 60px;
+  margin-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+
+  a div.polaroid:hover{
+    filter: grayscale(0) opacity(1);
+    transform: rotateZ(2deg);
+    cursor: pointer;
+  }
+  
+  div.polaroid {
+    z-index: 3;
+    position: relative;
+    filter: grayscale(1) opacity(.9);
+    transition: ease-in-out .3s;
+    display: block;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 750px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  div.container {
+    z-index: 3;
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .boxsky{
+    top: 1200px;
+    left: 70vw;
+    position: absolute;
+    border-radius: 15px;
+    width:450px;
+    height:250px;
+    border: 10px solid rgba(6, 113, 235, 0.411);
+    background-color: white;
+    z-index: 1;
+    transform: rotateZ(15deg);
+}

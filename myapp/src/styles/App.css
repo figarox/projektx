@@ -2,32 +2,25 @@ div.app{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     background-color: white;
     color: #222;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    flex-basis: 50vh;
+    flex-basis: 100vh;
 }
 
-aside{
-    width: 100%;
-    min-height: 50px;
-}
-
-section.page{
-    flex-grow: 1;
-    display: flex;
-    padding: 25px;
-    min-height: 50vh;
+section{
+    flex-basis: 100vh;
 }
 
 footer{
-    background-color: blue;
-    color: white;
-    padding: 10px;
+    height: 50px;
+    background-color: #222;
+    padding: 50px;
     text-align: center;
     text-transform: uppercase;
 }

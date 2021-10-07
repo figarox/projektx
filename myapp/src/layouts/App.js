@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 import { BrowserRouter as Router} from 'react-router-dom';
-import Header from './Header';
 import Page from './Page';
-import Footer from './Footer';
+import Footer from '../pages/Footer';
 import Navigation from './Navigation';
+import Section from './Section';
 
 class App extends Component{
   render(){
@@ -12,16 +12,12 @@ class App extends Component{
       <Router>
         <div className="app">
           <header>
-            {<Header />}
+            {<Navigation />}
+            {<Page />}
           </header>
-          <aside>
-                {<Navigation />}
-           </aside>
-          <main>
-              <section className="page">
-                {<Page />}
-              </section>
-          </main>
+          <section>
+            {<Section />}
+          </section>
           <footer>
             {<Footer />}
           </footer>
@@ -32,3 +28,4 @@ class App extends Component{
 }
 
 export default App;
+ 

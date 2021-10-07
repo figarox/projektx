@@ -1,0 +1,23 @@
+
+.starbutton{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid rgba(15, 97, 192, 0.719);
+    background-color: rgba(6, 113, 235, 0.513);
+    color: white;
+}
+
+.starbutton:hover{
+    cursor: pointer;
+    
+}
+
+.starbutton p {
+    text-align: center;
+    font-size: 18px;
+    padding: 7px;
+    text-transform: uppercase;
+}
