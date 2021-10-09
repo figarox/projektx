@@ -23,6 +23,32 @@ h2{
   margin-bottom: 50px;
 }
 
+.panelboczny img{
+  position: relative;
+  top: -5px;
+  left: -5px;
+  width: 60px;
+  height: 60px;
+}
+
+.panelboczny:hover{
+  width: 130px;
+
+}
+
+.panelboczny:hover:after {
+  animation-duration: 1400ms;
+  animation-name: slidein;
+  transition: transform 0.5s;
+  transform: skewX( -5deg );
+  content: " Mój GitHub ";
+  position:absolute;
+  top: 10px;
+  font-size: 16px;
+  left: 52px;
+  z-index: 1000;
+}
+
 
   a div.polaroid:hover{
     filter: grayscale(0) opacity(1);

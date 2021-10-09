@@ -4,7 +4,43 @@ header{
     border-bottom: 2px solid rgba(6, 113, 235, 0.513) ;
 }
 
+.panelboczny{
+    z-index: 1000;
+    margin-top: 29%;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgba(6, 113, 235, 0.513);
+    transition: width 500ms, transform 700ms;
+  
+}
 
+.panelboczny img{
+    position: relative;
+    top: -5px;
+    left: -5px;
+    width: 60px;
+    height: 60px;
+}
+
+.panelboczny:hover{
+    width: 130px;
+  
+  }
+  
+  .panelboczny:hover:after {
+    animation-duration: 1400ms;
+    animation-name: slidein;
+    transition: transform 0.5s;
+    transform: skewX( -5deg );
+    content: " Mój GitHub ";
+    position:absolute;
+    top: 10px;
+    font-size: 16px;
+    left: 52px;
+    z-index: 1000;
+  }
 
 .boy img{
     position: absolute;
@@ -33,16 +69,16 @@ header{
     position: absolute;
     width: 450px;
     height: 0;
-    top: 250px;
+    bottom:  205px;
     left: 20%;
     border: 2px solid rgba(6, 113, 235, 0.513);
     border-radius: 15px;
     animation: SkyText 1s ease forwards 2.9s;
 }
 
-.boxsky{
-    top: -40px;
-    left: -110px;
+.SkyBox{
+    bottom: 300px;
+    left: -80px;
     position: absolute;
     border-radius: 10px;
     width:250px;
@@ -57,6 +93,53 @@ header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(0, 0, 0);
 }
+
+.cointerner{
+    width: 50%;
+    height: 600px;
+    padding: 70px;
+    float: left;
+}
+
+.cointerner img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.cointerner-center{
+    float: left;
+    background-color: rgba(6, 113, 235, 0.513);
+    padding: 50px;
+    width: 100%;
+    height: 800px;
+}
+
+h2{
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h2icon{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.IconTech img{
+    margin: 5vw;
+    float: left;
+    width: 140px;
+    height: 150px;
+}
+
+.cointerner p{
+    font-size: 18px;
+    color: rgb(119, 119, 119);
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 .line1{
     position: absolute;
@@ -145,7 +228,7 @@ header{
   
     100%{
         opacity: 1;
-        height: 500px;
+        height: 400px;
     }
       
   }
@@ -178,7 +261,7 @@ header{
     }
   
     100%{
-        height: 35px;
+        height: 105px;
     }
       
   }

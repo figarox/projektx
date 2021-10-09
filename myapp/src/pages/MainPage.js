@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import '../styles/header.css';
+import '../styles/main.css';
 import '../styles/starbutton.css';
 import '../styles/box.css';
 import StarButton from "../components/StarButton";
 import Picture1 from "../images/boy.png";
+import github from "../icon/GitHub.png"
 import { Route } from 'react-router';
 
 const text = "Cześć, tu Maciek ";
@@ -12,12 +13,17 @@ const MainPage = () => {
 
     return ( 
         <>
+        <a href="https://github.com/figarox" target="_blank">  
+        <div class="panelboczny">
+            <img src={github} alt="github"></img>
+        </div>
+        </a>
             <div className="MainPage">
                 <div className="SkyText">
-                        <div className="boxsky"></div>
+                     <div className="SkyBox"></div>
                         <StarButton/>
                         <p>{text}</p>
-                    </div>
+                </div>
                             <div className="boy">
                                 <img src={Picture1} alt="Logo" />
                             </div>
