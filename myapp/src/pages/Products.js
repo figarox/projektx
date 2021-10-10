@@ -7,7 +7,7 @@ import github from "../icon/GitHub.png";
 const Products = () => {
     return ( 
         <>
-         <a href="https://github.com/figarox" target="_blank">  
+         <a href="https://github.com/figarox" className="GitHub_Panel" target="_blank">  
             <div class="panelboczny">
                 <img src={github} alt="github"></img>
             </div>

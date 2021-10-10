@@ -31,6 +31,13 @@ h2{
   height: 60px;
 }
 
+.GitHub_Panel:active,
+.GitHub_Panel:visited{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
 .panelboczny:hover{
   width: 130px;
 

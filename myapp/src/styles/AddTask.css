@@ -1,0 +1,15 @@
+input {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.FormTask {
+    font-size: 20px;
+}
+
+.FormTask button {
+    padding: 5px 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}

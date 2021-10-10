@@ -16,6 +16,13 @@ header{
   
 }
 
+.GitHub_Panel:active,
+.GitHub_Panel:visited{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
 .panelboczny img{
     position: relative;
     top: -5px;
@@ -109,10 +116,13 @@ header{
 
 .cointerner-center{
     float: left;
-    background-color: rgba(6, 113, 235, 0.513);
+    background-image: url("../images/sky.jpg");
     padding: 50px;
     width: 100%;
-    height: 800px;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 h2{
@@ -122,11 +132,12 @@ h2{
 }
 
 .h2icon{
-    color: rgb(255, 255, 255);
-    font-size: 80px;
-    font-weight: 600;
+    color: rgb(6, 113, 235);
+    font-size: 100px;
+    font-weight: 900;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .IconTech img{
     margin: 5vw;
     float: left;
@@ -140,6 +151,49 @@ h2{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.cointerner-teach{
+    float: left;
+    background-color: rgb(255, 255, 255);
+    margin-top: 150px;
+    padding: 50px;
+    width: 100%;
+    height: 1000px;
+}
+
+.todobox{
+    margin-top: 50px;
+    margin-left: 15%;
+    width: 70%;
+    height: 60%;
+    border: 10px solid rgba(6, 113, 235, 0.513);
+    border-radius: 20px;
+}
+
+.todo{
+ width: 50%;
+ height: 100%;
+ position: relative;
+ float: left;
+ text-align: center;
+ padding: 20px;
+ border-right: 10px solid rgba(6, 113, 235, 0.513);
+}
+
+.done{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.doneTask{
+    position: absolute;
+    width: 90%;
+    left: 600px;
+    top: 200px;
+}
 
 .line1{
     position: absolute;
