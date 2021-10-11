@@ -21,7 +21,6 @@ const MainPage = () => {
             <div className="MainPage">
                 <div className="SkyText">
                      <div className="SkyBox"></div>
-                        <StarButton/>
                         <p>{text}</p>
                 </div>
                             <div className="boy">
