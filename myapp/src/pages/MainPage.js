@@ -48,6 +48,8 @@ const MainPage = () => {
                             <div className="line6"></div>
                             <div className="line7"></div>
                             <div className="line8"></div>
+                            <div className="line9"></div>
+                            <div className="line10"></div>
             </div>
         </>
      );

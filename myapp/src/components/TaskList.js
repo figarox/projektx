@@ -17,7 +17,7 @@ const TaskList = (props) => {
             {activeTasks.length > 0 ? activeTasks : <p>Brak Zadań !!!</p>}
         </div>
         <div className="doneTask">
-            <h3>Zrobiłeś <em>({done.length})</em> zadania</h3>
+            <h3>Zrobiłeś <em>({done.length})</em> zadań</h3>
             {doneTasks}
         </div>
         </>

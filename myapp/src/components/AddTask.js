@@ -44,12 +44,12 @@ class AddTask extends Component {
             <>
                 <div className="FormTask">
                     <div>
-                    <input type="text" placeholder="Dodaj zadanie" value={this.state.text} onChange={this.handleText}/>
-                    <input type="checkbox" checked={this.state.checked} id="important" onChange={this.handleCheckBox}/>
-                    <label htmlFor="important">Piorytet</label><br/>
-                    <label htmlFor="date">Do kiedy zrobić</label>
-                    <input type="date" value={this.state.date} onChange={this.handleDate}/>
-                    <button onClick={this.handleClick}>Dodaj zadanie</button>
+                    <input type="text" placeholder="Dodaj zadanie" value={this.state.text} onChange={this.handleText}/><br/>
+                        <input type="checkbox" checked={this.state.checked} id="important" onChange={this.handleCheckBox}/>
+                        <label htmlFor="important">Piorytet</label><br/>
+                            <label htmlFor="date">Do kiedy zrobić</label>
+                            <input type="date" value={this.state.date} onChange={this.handleDate}/>
+                                  <button onClick={this.handleClick}>Dodaj zadanie</button>
                     </div>
                 </div>
             </>
