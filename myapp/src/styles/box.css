@@ -5,7 +5,8 @@
     height:130px;
     background:rgba(6, 113, 235, 0.513);
     left: 20px;
-    bottom: -10px;
+    top: -10px;
+    position: absolute;
     transform: rotateZ(140deg);
   }
 
@@ -14,9 +15,9 @@
     width:100px;
     height:100px;
     background:rgba(6, 113, 235, 0.513);
-    left: 20px;
-    bottom: -20px;
-    z-index: 2;
+    left: 10px;
+    top: 110px;
+    position: absolute;
     transform: rotateZ(20deg);
   }
   

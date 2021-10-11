@@ -130,25 +130,6 @@ class SelectionProduts extends Component {
                 <div className="cointerner">
                     <img src={PicutureSection} alt="html" ></img>
                 </div>
-                <div className="cointerner">
-                    <h2>nie wiem co</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis id odio vel 
-                    sollicitudin. Nullam vestibulum consequat lorem, fermentum semper risus pellentesque vel.
-                     Vivamus imperdiet ante et purus congue efficitur. Phasellus gravida felis leo, non malesuada dui dictum in. 
-                     Vestibulum vestibulum dignissim commodo. Curabitur aliquam mattis tortor eget aliquet. Donec suscipit malesuada est, 
-                     eget consequat mauris ullamcorper imperdiet. Etiam ornare pharetra nisi, at tincidunt nibh laoreet at. Integer malesuada 
-                     nibh sed ipsum sollicitudin vulputate. Phasellus nec sollicitudin lorem. Duis mattis risus sagittis, sodales lorem at, consequat dolor.
-                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas iaculis, nisl sit amet rutrum faucibus, leo arcu pharetra purus, 
-                      non tristique massa purus
-                       eu nulla. Integer lectus neque, ultrices at tincidunt et, volutpat at leo. Cras mi odio, imperdiet nec porta vitae, hendrerit suscipit quam.
-                     Praesent blandit, massa rhoncus tempor interdum, ligula dui pharetra ipsum, quis tempor risus diam vel augue.</p>
-                </div>
-                <div className="cointerner">
-                    <h2>Kontakt</h2>
-                    <input type="text" placeholder="Wpisz imie i nazwisko"/><br/>
-                    <textarea rows="10" cols="50" placeholder="Oco chcesz zapytac?"></textarea><br/>
-                    <button className="FormTask">Wyślij</button>
-                </div>
                 <div className="cointerner-center">
                     <h2 className="h2icon">
                     Jakie Technologie poznałem?

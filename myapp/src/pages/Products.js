@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/box.css';
 import '../styles/products.css';
 import github from "../icon/GitHub.png";
+import video from "../video/video.mp4";
 
 
 const Products = () => {
@@ -13,6 +14,16 @@ const Products = () => {
             </div>
         </a>
             <div className="Products">
+                <div>
+                    <div className="productsText">
+                        <p>"Przewaga dzięki technologii"</p>
+                    </div>
+                <video width="100%" height="100%" loop="true" autoplay="true" >
+                <source src={video} type="video/mp4"/>
+                <source src={video} type="video/ogv" />
+                <source src={video} type="video/webm" />
+                </video>
+                </div>
                             <div className="box1 "></div>
                             <div className="box2 "></div>
                             <div className="box3 "></div>
