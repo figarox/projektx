@@ -120,8 +120,8 @@ class SelectionProduts extends Component {
             <div>
                 <div className="cointerner">
                     <h2>Kim jestem ?</h2>
-                    <p>Mam na imie Maciej Roznawski mam 20 lat. Ukończyłem technikum informatyczne
-                     ,w którym zdobyłem kwalifikacje w zawodzie informatyk.Programistyką zajmuję się od 13 roku zycia.
+                    <p>Mam na imie Maciej Rożnawski mam 20 lat. Ukończyłem technikum informatyczne
+                     ,w którym zdobyłem kwalifikacje w zawodzie informatyk.Programistyką zajmuję się od 13 roku życia.
                       W tym czasie udało mi się stworzyć grę jaką była platformówka.Uwielbiam tworzyć i widzieć efekty mojej pracy to napedza mnie do 
                       jeszcze wiekszego działania oraz poszerzania wiedzy w zakresie programistyki.
                       W przyszłości chciałbym tworzyć aplikację które znajdowały by się na szczycie rankingu aplikacji webowych oraz zaspokajały by potrzeby najbardziej wymagajacych odbiorców.
