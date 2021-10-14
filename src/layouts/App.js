@@ -5,6 +5,9 @@ import Page from './Page';
 import Footer from '../pages/Footer';
 import Navigation from './Navigation';
 import Section from './Section';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/media.css';
+
 
 class App extends Component{
   render(){

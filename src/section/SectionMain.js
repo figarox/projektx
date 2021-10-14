@@ -118,46 +118,65 @@ class SelectionProduts extends Component {
     render(){
         return ( 
             <div>
-                <div className="cointerner">
-                    <h2>Kim jestem ?</h2>
-                    <p>Mam na imie Maciej Rożnawski mam 20 lat. Ukończyłem technikum informatyczne
-                     ,w którym zdobyłem kwalifikacje w zawodzie informatyk.Programistyką zajmuję się od 13 roku życia.
-                      W tym czasie udało mi się stworzyć grę jaką była platformówka.Uwielbiam tworzyć i widzieć efekty mojej pracy to napedza mnie do 
-                      jeszcze wiekszego działania oraz poszerzania wiedzy w zakresie programistyki.
-                      W przyszłości chciałbym tworzyć aplikację które znajdowały by się na szczycie rankingu aplikacji webowych oraz zaspokajały by potrzeby najbardziej wymagajacych odbiorców.
-                     </p>
+                <div className="containerbox">
+                    <div className="row">
+                            <div className="col">
+                                    <h2>Kim jestem ?</h2>
+                                    <p>Mam na imie Maciej Rożnawski mam 20 lat. Ukończyłem technikum informatyczne
+                                    ,w którym zdobyłem kwalifikacje w zawodzie informatyk.Programistyką zajmuję się od 13 roku życia.
+                                    W tym czasie udało mi się stworzyć grę jaką była platformówka.Uwielbiam tworzyć i widzieć efekty mojej pracy to napedza mnie do 
+                                    jeszcze wiekszego działania oraz poszerzania wiedzy w zakresie programistyki.
+                                    W przyszłości chciałbym tworzyć aplikację które znajdowały by się na szczycie rankingu aplikacji webowych oraz zaspokajały by potrzeby najbardziej wymagajacych odbiorców.
+                                    </p>
+                            </div>
+                            <div className="col">
+                                    <img src={PicutureSection} alt="html" className="pictureBox"></img>
+                            </div>
+                    </div>
                 </div>
-                <div className="cointerner">
-                    <img src={PicutureSection} alt="html" ></img>
-                </div>
+
                 <div className="cointerner-center">
-                    <h2 className="h2icon">
-                    Jakie Technologie poznałem?
-                    </h2>
-                    
-                    <div className="IconTech">
-                        <img src={Icon1} alt="html" ></img>
-                    </div>
-                    <div className="IconTech">
-                        <img src={Icon2} alt="html" ></img>
-                    </div>
-                    <div className="IconTech">
-                        <img src={Icon3} alt="html" ></img>
-                    </div>
-                    <div className="IconTech">
-                        <img src={Icon4} alt="html" ></img>
-                    </div>
-                    <div className="IconTech">
-                        <img src={Icon5} alt="html" ></img>
-                    </div>
-                    <div className="IconTech">
-                        <img src={Icon6} alt="git" ></img>
-                    </div>
-                    <div className="IconTech">
-                        <img src={Icon7} alt="bootstrap" ></img>
-                    </div>
-                    <div className="IconTech">
-                        <img src={Icon8} alt="c++" ></img>
+                    <div className="row">
+                        <div className="col">
+                            <div className="IconTech">
+                                <img src={Icon1} alt="html" ></img>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="IconTech">
+                                <img src={Icon2} alt="html" ></img>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="IconTech">
+                                <img src={Icon3} alt="html" ></img>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="IconTech">
+                                <img src={Icon4} alt="html" ></img>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="IconTech">
+                                <img src={Icon5} alt="html" ></img>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="IconTech">
+                                <img src={Icon6} alt="html" ></img>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="IconTech">
+                                <img src={Icon7} alt="html" ></img>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="IconTech">
+                                <img src={Icon8} alt="html" ></img>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="cointerner-teach">
@@ -170,7 +189,7 @@ class SelectionProduts extends Component {
                     <div className="todobox">
                         <div className="todo">
                             <h2>Moje cele</h2>
-                            <TaskList tasks={this.state.tasks} delete={this.deleteTask} change={this.changeTaskStatus}/>
+                            <p><TaskList tasks={this.state.tasks} delete={this.deleteTask} change={this.changeTaskStatus}/></p>
                         </div>
                         <div className="done">
                             <h2>Zrobione</h2>

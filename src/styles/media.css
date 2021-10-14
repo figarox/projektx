@@ -1,0 +1,101 @@
+
+
+@media only screen and (max-width: 600px) {
+
+    .row{
+        margin: 0 auto;
+    }
+
+    .col p {
+        font-size: 15px;
+    }
+
+    .col{
+        margin: 0 auto;
+    }
+
+    .boy img{
+        opacity: 0;
+    }
+
+    p,h3{
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+    .cointerner-teach{
+        background-color: rgb(255, 255, 255);
+        margin-top: 30px;
+        padding: 20px;
+        width: 100%;
+        overflow:auto;
+        min-height: 1000px;
+        margin-bottom: 150px;
+    }
+
+    .PanelToDo{
+        background-color: #e3eeff63;
+        padding: 15px;
+        top: -10px;
+        width: 100%;
+    }
+
+    .todo{
+        width: 60%;
+        height: 100%;
+        padding: 5px;
+       }
+
+       .doneTask{
+        top: 50px;
+    }
+
+    .todobox{
+        margin-top: 10px;
+        margin-left: 1%;
+        position: relative;
+        width: 100%;
+        overflow:auto;
+        min-height: 700px;
+        border: 10px solid rgba(6, 113, 235, 0.513);
+        border-radius: 20px;
+    }
+    
+    .nav-main{
+        z-index: 6;
+        position: relative;
+        width: auto;
+        height: 100px;
+        left: 5vw;
+        top: 20px;
+    }
+
+    .pictureBox{
+        position: relative;
+        background-position: center;
+        margin: 0 auto;
+        height: auto;
+        width: auto;
+    }
+
+    .IconTech img{
+        margin-top: 50px;
+        margin-bottom: 40px;
+        width: 70px;
+        height: 80px;
+    }
+
+    .cointerner-center{
+        background-image: url("../images/sky.jpg");
+        margin-top: 60px;
+        padding: 10px;
+        width: 100%;
+        overflow:hidden;
+        min-height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+  }
