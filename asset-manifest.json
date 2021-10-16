@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/projektx/static/css/main.39d7e41a.chunk.css",
-    "main.js": "/projektx/static/js/main.0240606f.chunk.js",
-    "main.js.map": "/projektx/static/js/main.0240606f.chunk.js.map",
+    "main.css": "/projektx/static/css/main.94e2c376.chunk.css",
+    "main.js": "/projektx/static/js/main.ef73a418.chunk.js",
+    "main.js.map": "/projektx/static/js/main.ef73a418.chunk.js.map",
     "runtime-main.js": "/projektx/static/js/runtime-main.a15ac1c9.js",
     "runtime-main.js.map": "/projektx/static/js/runtime-main.a15ac1c9.js.map",
     "static/css/2.f2512455.chunk.css": "/projektx/static/css/2.f2512455.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.343fda09.chunk.js.map": "/projektx/static/js/2.343fda09.chunk.js.map",
     "index.html": "/projektx/index.html",
     "static/css/2.f2512455.chunk.css.map": "/projektx/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.39d7e41a.chunk.css.map": "/projektx/static/css/main.39d7e41a.chunk.css.map",
+    "static/css/main.94e2c376.chunk.css.map": "/projektx/static/css/main.94e2c376.chunk.css.map",
     "static/js/2.343fda09.chunk.js.LICENSE.txt": "/projektx/static/js/2.343fda09.chunk.js.LICENSE.txt",
     "static/media/GitHub.c6114ba5.png": "/projektx/static/media/GitHub.c6114ba5.png",
     "static/media/baner.605b5482.jpg": "/projektx/static/media/baner.605b5482.jpg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.a15ac1c9.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.343fda09.chunk.js",
-    "static/css/main.39d7e41a.chunk.css",
-    "static/js/main.0240606f.chunk.js"
+    "static/css/main.94e2c376.chunk.css",
+    "static/js/main.ef73a418.chunk.js"
   ]
 }
