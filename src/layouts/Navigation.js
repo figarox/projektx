@@ -15,11 +15,30 @@ const Navigation = () => {
         </li>
     ))
     return ( 
-        <nav className='nav-main'>
-            <ul>
+        <>
+             <div className="opacityMenu">
                 {menu}
-            </ul>
-        </nav>
+             </div>
+             
+            <nav role="navigation">
+            <div id="menuToggle">
+        
+            <input type="checkbox" />
+        
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <ul id="menu">
+                    <div className="menuButton">
+                        {menu}
+                    </div>
+                </ul>
+            </div>
+            </nav>
+
+
+      </>
      );
 }
  

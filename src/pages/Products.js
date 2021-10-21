@@ -14,16 +14,13 @@ const Products = () => {
             </div>
         </a>
             <div className="Products">
-                <div>
-                    <div className="productsText">
-                        <p>"Przewaga dzięki technologii"</p>
-                    </div>
-                <video width="100%" height="100%" loop="true" autoplay="true" >
-                <source src={video} type="video/mp4"/>
-                <source src={video} type="video/ogv" />
-                <source src={video} type="video/webm" />
-                </video>
-                </div>
+                
+                    <video loop="true" autoplay="true" >
+                        <source src={video} type="video/mp4"/>
+                        <source src={video} type="video/ogv" />
+                        <source src={video} type="video/webm" />
+                    </video>
+    
                             <div className="box1 "></div>
                             <div className="box2 "></div>
                             <div className="box3 "></div>
@@ -37,6 +34,12 @@ const Products = () => {
                             <div className="box11 "></div>
                             <div className="box12 "></div>
                             <div className="box13v2 "></div>
+
+                            <div className="menuproducts">
+                                <div className="WinProducts">
+                                    
+                                </div>
+                            </div>
             </div>
         </>
      );

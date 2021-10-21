@@ -1,7 +1,73 @@
 
+@media only screen and (min-width: 900px) {
 
-@media only screen and (max-width: 600px) {
+  .opacityMenu{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    z-index: 10;
+    float: right;
+    margin-top: 50px;
+    right: 50px;
+    display: block;
+  }
+  
+  #menu{
+    display: none;
+  }
 
+  #menuToggle
+  {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
+  p.knowtext{
+    font-size: 40px;
+    }
+
+    video{
+      position: relative;
+      height: 100%;
+      padding: 5px;
+      left: -100%;
+      bottom: 40px;
+    }
+
+    .opacityMenu{
+      display: none;
+    }
+
+    li{
+      box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+      background-color: rgba(255, 255, 255, 0);
+      width: 100%;
+      padding: 5px;
+      height: 25%;
+      margin-top: 5px;
+      margin-left: 0;
+      z-index: 31;
+    }
+
+    li a, li a.active{
+      margin-top: 20%;
+      z-index: 31;
+      color: white;
+      font-size: 50px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    li a.active{
+      font-size: 55px;
+      color: rgb(0, 140, 255);
+    }
+
+    li:hover{
+      transform: translateY(0px);
+    }
     .row{
         margin: 0 auto;
     }
@@ -11,20 +77,32 @@
     }
 
     .col{
-        margin: 0 auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        min-width: 270px;
     }
-
     .boy img{
         opacity: 0;
     }
 
     p,h3{
-        font-size: 15px;
+        font-size: 13px;
     }
 
     h2{
-        font-size: 20px;
+        font-size: 25px;
     }
+
+    .row h3{
+      font-size: 30px;
+      padding: 10px;
+      margin-top: 20px;
+      text-align: center;
+      font-weight: 600;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-decoration: underline 0.15em;
+  }
+
     .cointerner-teach{
         background-color: rgb(255, 255, 255);
         margin-top: 30px;
@@ -55,30 +133,15 @@
     .todobox{
         margin-top: 10px;
         margin-left: 1%;
-        position: relative;
         width: 100%;
-        overflow:auto;
-        min-height: 700px;
-        border: 10px solid rgba(6, 113, 235, 0.513);
-        border-radius: 20px;
     }
     
     .nav-main{
-        z-index: 6;
-        position: relative;
-        width: auto;
         height: 100px;
         left: 5vw;
         top: 20px;
     }
 
-    .pictureBox{
-        position: relative;
-        background-position: center;
-        margin: 0 auto;
-        height: auto;
-        width: auto;
-    }
 
     .IconTech img{
         margin-top: 50px;
@@ -98,4 +161,217 @@
         background-position: center;
         background-attachment: fixed;
     }
+    .SkyText{
+      bottom:  155px;
+      left: 40px;
+      width: 15em;
+  }
+
+  @keyframes SkyText {
+    0%{
+        height: 0;
+    }
+  
+    100%{
+        opacity: 1;
+        height: 250px;
+    }
+      
+  }
+
+  .SkyText p {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+  .SkyBox{
+    bottom: 170px;
+    left: -30px;
+    width:200px;
+    height:120px;
+  }
+
+  .box13 {
+    position: absolute;
+    border-radius: 7px;
+    width: 1200px;
+    height: 400px;
+    background:rgba(6, 113, 235, 0.513);
+    right: -650px;
+    top: 20px;
+    transform: rotateZ(250deg);
+  }
+
+
+  .box13v2 {
+    position: absolute;
+    border-radius: 7px;
+    width: 1000px;
+    height: 40px;
+    background:rgba(6, 113, 235, 0.513);
+    right: -550px;
+    top: 20px;
+    transform: rotateZ(240deg);
+}
+
+  div.polaroid {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: auto;
+    margin-left: 5px;
+  }
+
+  .line1{
+    left: 230px;
+}
+
+.line2{
+    left: 230px;
+}
+
+.line3{
+    left: 280px;
+
+}
+
+  @keyframes line3 {
+    0%{
+        height: 0px;
+    }
+  
+    100%{
+        height: 55px;
+    }
+      
+  }
+  
+  .line4{
+    animation: none;
+  }
+  .line5{
+    animation: none;
+  }
+  .line6{
+    animation: none;
+  }
+  .line7{
+    animation: none;
+  }
+  .line8{
+    animation: none;
+  }
+  .line9{
+    animation: none;
+  }
+  .line10{
+    animation: none;
+  }
+
+
+.linemedia{
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+  width: 2px;
+  height: 0;
+  background:rgba(6, 113, 235, 0.513);
+  animation: linemedia 1s ease forwards 0.5s;
+}
+
+.linemedia2{
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  width: 0;
+  height: 2px;
+  background:rgba(6, 113, 235, 0.513);
+  animation: linemedia2 1s ease forwards 1.3s;
+}
+
+.linemedia3{
+  position: absolute;
+  bottom: 50px;
+  left: 150px;
+  width: 2px;
+  height: 0;
+  background:rgba(6, 113, 235, 0.513);
+  animation: linemedia3 1s ease forwards 2.1s;
+}
+
+.linemedia4{
+  position: absolute;
+  bottom: 78px;
+  left: 70px;
+  width: 0;
+  height: 2px;
+  background:rgba(6, 113, 235, 0.513);
+  animation: linemedia4 1s ease forwards 1.3s;
+}
+
+.linemedia5{
+  position: absolute;
+  bottom: 80px;
+  left: 70px;
+  width: 2px;
+  height: 0;
+  background:rgba(6, 113, 235, 0.513);
+  animation: linemedia5 1s ease forwards 2.1s;
+}
+
+@keyframes linemedia {
+  0%{
+      height: 0px;
+  }
+
+  100%{
+      height: 50px;
+  }
+    
+}
+
+@keyframes linemedia2 {
+    0%{
+        width: 0px;
+    }
+  
+    100%{
+        width: 50px;
+    }
+      
+  }
+
+  @keyframes linemedia3 {
+    0%{
+        height: 0px;
+    }
+  
+    100%{
+        height: 30px;
+    }
+      
+  }
+
+  @keyframes linemedia4 {
+    0%{
+        width: 0px;
+    }
+  
+    100%{
+        width: 80px;
+    }
+      
+  }
+
+  @keyframes linemedia5 {
+    0%{
+        height: 0px;
+    }
+  
+    100%{
+        height: 75px;
+    }
+      
+  }
   }

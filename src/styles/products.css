@@ -1,4 +1,5 @@
 
+
 .box13v2 {
     position: absolute;
     border-radius: 7px;
@@ -10,74 +11,31 @@
     transform: rotateZ(240deg);
   }
 
-  div.polaroid img{
-    width: 750px;
-    height: 400px;
-  }
-
-h2{
-  font-size: 60px;
-  margin-top: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 50px;
-}
-
-.panelboczny img{
-  position: relative;
-  top: -5px;
-  left: -5px;
-  width: 60px;
-  height: 60px;
-}
-
-.GitHub_Panel:active,
-.GitHub_Panel:visited{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: none;
-    color: white;
-}
-
-.panelboczny:hover{
-  width: 130px;
-
-}
-
-.panelboczny:hover:after {
-  animation-duration: 1400ms;
-  animation-name: slidein;
-  transition: transform 0.5s;
-  transform: skewX( -5deg );
-  content: " Mój GitHub ";
-  position:absolute;
-  top: 10px;
-  font-size: 16px;
-  left: 52px;
-  z-index: 1000;
-}
-
-
   a div.polaroid:hover{
     filter: grayscale(0) opacity(1);
     transform: rotateZ(2deg);
     cursor: pointer;
   }
   
-  div.polaroid {
-    z-index: 3;
+  .polaroid {
+    z-index: 4;
     position: relative;
     filter: grayscale(1) opacity(.9);
     transition: ease-in-out .3s;
     display: block;
-    float: left;
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    width: 750px;
+    min-width: 300px;
+    height: auto;
+    margin-top: 50px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  
+
+  .polaroid img{
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+  }
+
   div.container {
     z-index: 3;
     text-align: center;
@@ -85,14 +43,20 @@ h2{
   }
 
   .boxsky{
-    top: 1200px;
-    left: 70vw;
+    top: 2000px;
+    left: 1vw;
     position: absolute;
     border-radius: 15px;
-    width:450px;
-    height:250px;
+    width:25vw;
+    height:10vh;
     border: 10px solid rgba(6, 113, 235, 0.411);
     background-color: white;
     z-index: 1;
     transform: rotateZ(15deg);
+}
+
+.section-information{
+  background-color: rgb(247, 247, 247);
+  width: 100%;
+  height: 800px;
 }

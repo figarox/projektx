@@ -130,13 +130,16 @@ class SelectionProduts extends Component {
                                     </p>
                             </div>
                             <div className="col">
+                                <div className="BoxPicture">
                                     <img src={PicutureSection} alt="html" className="pictureBox"></img>
+                                </div>
                             </div>
                     </div>
                 </div>
 
                 <div className="cointerner-center">
                     <div className="row">
+                    <p className="knowtext">Technologie jakie poznałem</p>
                         <div className="col">
                             <div className="IconTech">
                                 <img src={Icon1} alt="html" ></img>
@@ -190,9 +193,6 @@ class SelectionProduts extends Component {
                         <div className="todo">
                             <h2>Moje cele</h2>
                             <p><TaskList tasks={this.state.tasks} delete={this.deleteTask} change={this.changeTaskStatus}/></p>
-                        </div>
-                        <div className="done">
-                            <h2>Zrobione</h2>
                         </div>
                     </div>
                 </div>

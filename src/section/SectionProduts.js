@@ -7,35 +7,49 @@ import '../styles/products.css';
 const SelectionProduts = () => {
     return ( 
         <div>
-             <div><h2>Projekty Ukończone</h2>
-                    <a href="http://diva-slupsk.pl/" target="_blank">
-                        <div className="polaroid">
-                                <img src={project1} alt="zdj1"></img>
-                            <div class="container">
-                            <p>Komercyjny projekt - diva-slupsk.pl</p>
-                            </div>
-                        </div>
-                    </a>
+            <div className="row section-information">
+                <div className="col">
+                    <p>Ostatnio wykonałem 2 projekty komerycjne z których osoby zamawiajace sa bardzo zadowolone.</p>
+                </div>
+            </div>
 
-                    <a href="https://renrom.pl/" target="_blank">
-                        <div className="polaroid">
-                            <img src={project2} alt="zdj2"></img>
-                            <div class="container">
-                            <p>Komercyjny projekt - renrom.pl</p>
+
+             <div className="row">
+                <h3>Projekty Ukończone</h3>
+                             <div className="col">
+                                <a href="http://diva-slupsk.pl/" target="_blank">
+                                    <div className="polaroid">
+                                            <img src={project1} alt="zdj1"></img>
+                                        <div class="container">
+                                        <p>Komercyjny projekt - diva-slupsk.pl</p>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                        </div>
-                    </a>
-            </div>
-            <div><h2>Projekty w trackie pracy</h2>
-                <a href="http://mysticwar.pl/" target="_blank">
-                    <div className="polaroid">
-                        <img src={project3} alt="zdj3"></img>
-                        <div class="container">
-                        <p>Gra - mysticwar.pl</p>
-                        </div>
+                             <div className="col">
+                                <a href="http://diva-slupsk.pl/" target="_blank">
+                                    <div className="polaroid">
+                                            <img src={project2} alt="zdj1"></img>
+                                        <div class="container">
+                                        <p>Komercyjny projekt - diva-slupsk.pl</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                     </div>
-                </a>
-            </div>
+                    <div className="row">
+                    <h3>Projekty w Trackie</h3>
+                             <div className="col">
+                                <a href="http://diva-slupsk.pl/" target="_blank">
+                                    <div className="polaroid">
+                                            <img src={project3} alt="zdj1"></img>
+                                        <div class="container">
+                                        <p>Komercyjny projekt - diva-slupsk.pl</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                    </div>
             <div className="boxsky"></div>
 
         </div>
