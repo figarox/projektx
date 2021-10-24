@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, Move, FadeIn, StickyIn, ZoomIn, Sticky} from "react-scroll-motion";
 import '../styles/main.css';
 import Icon1 from '../icon/html.png';
 import Icon2 from '../icon/css.png';
@@ -11,7 +12,7 @@ import Icon8 from '../icon/c++.png';
 import PicutureSection from '../images/baner.jpg';
 import AddTask from "../components/AddTask";
 import TaskList from "../components/TaskList";
-
+import Typical from 'react-typical';
 
 class SelectionProduts extends Component {
 
@@ -118,7 +119,10 @@ class SelectionProduts extends Component {
     render(){
         return ( 
             <div>
-                <div className="containerbox">
+            <ScrollContainer>
+            <ScrollPage page={1}>
+                    <Animator animation={batch(StickyIn(), FadeIn(), ZoomIn())}>
+                    <div className="containerbox">
                     <div className="row">
                             <div className="col">
                                     <h2>Kim jestem ?</h2>
@@ -136,6 +140,34 @@ class SelectionProduts extends Component {
                             </div>
                     </div>
                 </div>
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={2}>
+                    <div className="section1">
+                    <Animator animation={batch(StickyIn(), FadeIn(), ZoomIn())}>
+                    <span style={{ fontSize: "50px"}}>
+                        Moje Motto
+                    </span>
+                    <br/>
+                    <span style={{ fontSize: "40px"}}>
+                    „Im wiecej rzeczy się dowiaduje to
+                    </span>
+                    <br/>
+                    <span style={{ fontSize: "30px" }}>
+                    wiem, że nic nie wiem”
+                    </span>
+                    </Animator>
+                    </div>
+                </ScrollPage>
+                <ScrollPage page={3}>
+                    <Animator animation={batch(Fade(), Move(), Sticky())}>
+                    <span className="section2"></span>
+                    <span style={{ fontSize: "40px" }}>Z JavaScript moza wszystko</span>
+                    </Animator>
+                </ScrollPage>
+            </ScrollContainer>
+          
+                
 
                 <div className="cointerner-center">
                     <div className="row">
@@ -196,8 +228,8 @@ class SelectionProduts extends Component {
                         </div>
                     </div>
                 </div>
-
             </div>
+            
          );
     }
 

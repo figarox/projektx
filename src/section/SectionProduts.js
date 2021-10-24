@@ -7,13 +7,6 @@ import '../styles/products.css';
 const SelectionProduts = () => {
     return ( 
         <div>
-            <div className="row section-information">
-                <div className="col">
-                    <p>Ostatnio wykonałem 2 projekty komerycjne z których osoby zamawiajace sa bardzo zadowolone.</p>
-                </div>
-            </div>
-
-
              <div className="row">
                 <h3>Projekty Ukończone</h3>
                              <div className="col">
@@ -21,17 +14,17 @@ const SelectionProduts = () => {
                                     <div className="polaroid">
                                             <img src={project1} alt="zdj1"></img>
                                         <div class="container">
-                                        <p>Komercyjny projekt - diva-slupsk.pl</p>
+                                        <p>Komercyjny projekt - diva-slupsk</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                              <div className="col">
-                                <a href="http://diva-slupsk.pl/" target="_blank">
+                                <a href="https://renrom.pl/" target="_blank">
                                     <div className="polaroid">
-                                            <img src={project2} alt="zdj1"></img>
+                                            <img src={project2} alt="zdj2"></img>
                                         <div class="container">
-                                        <p>Komercyjny projekt - diva-slupsk.pl</p>
+                                        <p>Komercyjny projekt - RenRom</p>
                                         </div>
                                     </div>
                                 </a>
@@ -40,11 +33,11 @@ const SelectionProduts = () => {
                     <div className="row">
                     <h3>Projekty w Trackie</h3>
                              <div className="col">
-                                <a href="http://diva-slupsk.pl/" target="_blank">
+                                <a href="http://mysticwar.pl/" target="_blank">
                                     <div className="polaroid">
-                                            <img src={project3} alt="zdj1"></img>
+                                            <img src={project3} alt="zdj3"></img>
                                         <div class="container">
-                                        <p>Komercyjny projekt - diva-slupsk.pl</p>
+                                        <p>Gra - mysticwar</p>
                                         </div>
                                     </div>
                                 </a>

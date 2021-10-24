@@ -3,7 +3,8 @@ import '../styles/box.css';
 import '../styles/products.css';
 import github from "../icon/GitHub.png";
 import video from "../video/video.mp4";
-
+import 'animate.css';
+import Typical from 'react-typical';
 
 const Products = () => {
     return ( 
@@ -35,9 +36,30 @@ const Products = () => {
                             <div className="box12 "></div>
                             <div className="box13v2 "></div>
 
-                            <div className="menuproducts">
+                            <div className="menuproducts animate__animated animate__fadeInUp">
                                 <div className="WinProducts">
-                                    
+                                     <div>
+                                        <Typical
+                                            loop={1}
+                                            wrapper="p"
+                                            steps={[
+                                                '',
+                                                3500,
+                                                'Stworzyłem dwa projekty komercyjne',
+                                                3500,
+                                                'Diva-Słupsk',
+                                                3500,
+                                                'Ren-Rom',
+                                                3500,
+                                                'Stworzyłem tez gre, która jest w trackie pracy',
+                                                3500,
+                                                'Mysticwar',
+                                                3500,
+                                                '⬇️Scroll Down⬇️',
+                                                3500,
+                                            ]}
+                                        />
+                                     </div>
                                 </div>
                             </div>
             </div>

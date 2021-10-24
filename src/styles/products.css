@@ -1,4 +1,11 @@
 
+.styles_typicalWrapper__1_Uvh{
+  font-family: monospace;
+  font-size: 25px;
+  text-align: center;
+  color: greenyellow;
+  font-weight: 500;
+}
 
 .box13v2 {
     position: absolute;
@@ -59,4 +66,25 @@
   background-color: rgb(247, 247, 247);
   width: 100%;
   height: 800px;
+}
+
+.menuproducts{
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+  width: 100%;
+  height: 100vh;
+}
+
+.WinProducts{
+  animation: 3s ease forwards 10s; 
+  position: relative;
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 2em;
+  top: 5%;
+  background-color: rgba(6, 113, 235, 0.411);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 40px 12px;
+  border-radius: 5px;
 }
