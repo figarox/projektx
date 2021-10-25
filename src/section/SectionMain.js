@@ -46,7 +46,7 @@ class SelectionProduts extends Component {
             },
             {
            id: 4,
-           text: 'Urzadzić impreze urodzinową',
+           text: 'Urządzić impreze urodzinową',
            date: '2022-01-02',
            important: false,
            active: true,
@@ -64,7 +64,7 @@ class SelectionProduts extends Component {
            ,
             {
            id: 6,
-           text: 'nauczyc sie porfesionalnie React',
+           text: 'Nauczyć się profesjonalnie React',
            date: '2021-10-10',
            important: true,
            active: true,
