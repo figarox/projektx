@@ -2,6 +2,7 @@ import React from "react";
 import project1 from '../images/projekt1.png';
 import project2 from '../images/projekt2.png';
 import project3 from '../images/projekt3.png';
+import project4 from '../images/projekt4.png';
 import '../styles/products.css';
 
 const SelectionProduts = () => {
@@ -38,6 +39,16 @@ const SelectionProduts = () => {
                                             <img src={project3} alt="zdj3"></img>
                                         <div class="container">
                                         <p>Gra - mysticwar</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="col">
+                                <a href="" target="_blank">
+                                    <div className="polaroid">
+                                            <img src={project4} alt="zdj4"></img>
+                                        <div class="container">
+                                        <p>Portal dla Przychodni</p>
                                         </div>
                                     </div>
                                 </a>

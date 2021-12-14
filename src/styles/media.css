@@ -3,12 +3,12 @@
 
   .opacityMenu{
     position: absolute;
-    width: 400px;
+    width: 600px;
     height: 100px;
     z-index: 10;
     float: right;
     margin-top: 50px;
-    right: 50px;
+    right: 20px;
     display: block;
   }
   

@@ -3,7 +3,10 @@ import { NavLink } from 'react-router-dom';
 import '../styles/nav.css';
 
 const List = [
-    {name: "Main", path: "/" , excat: true},
+    {name: "Główne Menu", 
+    path: "/" , 
+    excat: true
+    },
     {name: "Projekty", path: "/products"},
 ]
 

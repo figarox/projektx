@@ -1,7 +1,7 @@
 .nav-main{
     z-index: 6;
     position: absolute;
-    width: 800px;
+    width: 1000px;
     height: 100px;
     right: -250px;
     top: 50px;
@@ -10,7 +10,7 @@
 li{
     background-color: white;
     list-style-type: none;
-    width: 150px;
+    width: 200px;
     padding: 10px;
     height: 40px;
     float: left;

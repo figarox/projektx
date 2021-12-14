@@ -120,8 +120,8 @@ class SelectionProduts extends Component {
         return ( 
             <div>
             <ScrollContainer>
-            <ScrollPage page={1}>
-                    <Animator animation={batch(StickyIn(), FadeIn(), ZoomIn())}>
+            <ScrollPage page={2}>
+                    <Animator animation={batch(StickyIn(), FadeIn(), ZoomIn(100))}>
                     <div className="containerbox">
                     <div className="row">
                             <div className="col">
@@ -142,7 +142,7 @@ class SelectionProduts extends Component {
                 </div>
                     </Animator>
                 </ScrollPage>
-                <ScrollPage page={2}>
+                <ScrollPage page={3}>
                     <div className="section1">
                     <Animator animation={batch(StickyIn(), FadeIn(), ZoomIn())}>
                     <span style={{ fontSize: "50px"}}>
@@ -159,7 +159,7 @@ class SelectionProduts extends Component {
                     </Animator>
                     </div>
                 </ScrollPage>
-                <ScrollPage page={3}>
+                <ScrollPage page={4}>
                     <Animator animation={batch(Fade(), Move(), Sticky())}>
                     <span className="section2"></span>
                     <span style={{ fontSize: "40px" }}>Z JavaScript moza wszystko</span>
