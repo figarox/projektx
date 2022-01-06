@@ -32,7 +32,7 @@ const SelectionProduts = () => {
                             </div>
                     </div>
                     <div className="row">
-                    <h3>Projekty w Trackie</h3>
+                    <h3>Projekty w Trackie Pracy</h3>
                              <div className="col">
                                 <a href="http://mysticwar.pl/" target="_blank">
                                     <div className="polaroid">
@@ -44,7 +44,7 @@ const SelectionProduts = () => {
                                 </a>
                             </div>
                             <div className="col">
-                                <a href="" target="_blank">
+                                <a href="https://figarox.github.io/doctor-terminal/" target="_blank">
                                     <div className="polaroid">
                                             <img src={project4} alt="zdj4"></img>
                                         <div class="container">

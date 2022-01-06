@@ -156,6 +156,7 @@ class SelectionProduts extends Component {
                     <span style={{ fontSize: "30px" }}>
                     wiem, że nic nie wiem”
                     </span>
+                    <br/>
                     </Animator>
                     </div>
                 </ScrollPage>
@@ -163,6 +164,12 @@ class SelectionProduts extends Component {
                     <Animator animation={batch(Fade(), Move(), Sticky())}>
                     <span className="section2"></span>
                     <span style={{ fontSize: "40px" }}>Z JavaScript moza wszystko</span>
+                    </Animator>
+                </ScrollPage>
+                <ScrollPage page={5}>
+                    <Animator animation={batch(Fade(), Move(), Sticky())}>
+                    <span className="section2"></span>
+                    <span style={{ fontSize: "40px" }}></span>
                     </Animator>
                 </ScrollPage>
             </ScrollContainer>
